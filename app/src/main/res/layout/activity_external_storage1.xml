@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vijay.storage.ExternalStorage.ExternalStorage1">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <Button
+        android:id="@+id/internalcache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="view_click"
+        android:text="internalcache" />
+
+    <Button
+        android:id="@+id/externalcache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="view_click"
+        android:text="externalcache" />
+
+    <Button
+        android:id="@+id/externalprivate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="view_click"
+        android:text="Button"
+        tools:text="externalprivate" />
+
+    <Button
+        android:onClick="view_click"
+        android:id="@+id/externalpublic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="externalpublic" />
+
+    <Button
+        android:onClick="view_click"
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="next" />
+</LinearLayout>
